@@ -1,0 +1,132 @@
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00483d;
+    padding-top: 10px;
+    margin: 10px 30px;
+}
+
+.abcd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.int1 {
+    width: 70%;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.order-status {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.btn1 {
+    margin-top: 10px;
+}
+
+.ic ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    gap: 100px;
+}
+
+.ic ul li {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.ic ul li i {
+    font-size: 20px;
+}
+
+.ic ul li:hover i {
+    color: #FFD000;
+}
+
+.text {
+    gap: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.text p {
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ul1 {
+    margin: 0;
+}
+
+.ul1 li {
+    margin: 0;
+}
+
+.header {
+    background-color: #00483d;
+    text-align: center;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    border: 2px solid black;
+}
+
+body {
+    background-image: url(Background-xanh-la-cay-nhat.jpg);
+}
